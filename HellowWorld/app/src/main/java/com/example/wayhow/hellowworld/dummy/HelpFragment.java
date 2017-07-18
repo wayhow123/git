@@ -135,63 +135,63 @@ public class HelpFragment extends Fragment implements View.OnClickListener {
     }
 
 
-    class HelpHeaderView extends View {
-
-        private View mView;
-        private Context mContext;
-        private ViewGroup mParent;
-        private ImageButton leftImageButton;
-        private ImageButton rightImageButton;
-        private ImageView categoryImage;
-        private ImageView hotImgae;
-        private ImageView topicImage;
-        private ImageView mustReadImage;
-        private TextView categoryText;
-        private TextView hotText;
-        private TextView topicText;
-        private TextView mustReadText;
-
-
-        public HelpHeaderView(Context context) {
-            super(context);
-            mContext = context;
-            initView();
-        }
-
-        public HelpHeaderView(Context context, @Nullable AttributeSet attrs) {
-            super(context, attrs);
-            mContext = context;
-            initView();
-        }
-
-        public HelpHeaderView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
-            super(context, attrs, defStyleAttr);
-            mContext = context;
-            initView();
-        }
-
-        public HelpHeaderView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
-            super(context, attrs, defStyleAttr, defStyleRes);
-            mContext = context;
-            initView();
-        }
-
-        public void initView() {
-            LayoutInflater inflater = LayoutInflater.from(mContext);
-            mView = inflater.inflate(R.layout.help_header_layout, null);
-//            leftImageButton = mView.findViewById(R.id.leftImageButton);
-//            rightImageButton = mView.findViewById(R.id.rigthImageButton);
-//            categoryImage = mView.findViewById(R.id.categoryImage);
-//            hotImgae = mView.findViewById(R.id.hotImage);
-//            topicImage = mView.findViewById(R.id.topicImage);
-//            mustReadImage = mView.findViewById(R.id.mustReadImage);
-//            categoryText = mView.findViewById(R.id.categoryText);
-//            hotText = mView.findViewById(R.id.hotText);
-//            topicText = mView.findViewById(R.id.topicText);
-//            mustReadText = mView.findViewById(R.id.mustReadText);
-
-        }
-
-    }
+//    class HelpHeaderView extends View {
+//
+//        private View mView;
+//        private Context mContext;
+//        private ViewGroup mParent;
+//        private ImageButton leftImageButton;
+//        private ImageButton rightImageButton;
+//        private ImageView categoryImage;
+//        private ImageView hotImgae;
+//        private ImageView topicImage;
+//        private ImageView mustReadImage;
+//        private TextView categoryText;
+//        private TextView hotText;
+//        private TextView topicText;
+//        private TextView mustReadText;
+//
+//
+//        public HelpHeaderView(Context context) {
+//            super(context);
+//            mContext = context;
+//            initView();
+//        }
+//
+//        public HelpHeaderView(Context context, @Nullable AttributeSet attrs) {
+//            super(context, attrs);
+//            mContext = context;
+//            initView();
+//        }
+//
+//        public HelpHeaderView(Context context, @Nullable AttributeSet attrs, int defStyleAttr) {
+//            super(context, attrs, defStyleAttr);
+//            mContext = context;
+//            initView();
+//        }
+//
+//        public HelpHeaderView(Context context, @Nullable AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+//            super(context, attrs, defStyleAttr, defStyleRes);
+//            mContext = context;
+//            initView();
+//        }
+//
+//        public void initView() {
+//            LayoutInflater inflater = LayoutInflater.from(mContext);
+//            mView = inflater.inflate(R.layout.help_header_layout, null);
+////            leftImageButton = mView.findViewById(R.id.leftImageButton);
+////            rightImageButton = mView.findViewById(R.id.rigthImageButton);
+////            categoryImage = mView.findViewById(R.id.categoryImage);
+////            hotImgae = mView.findViewById(R.id.hotImage);
+////            topicImage = mView.findViewById(R.id.topicImage);
+////            mustReadImage = mView.findViewById(R.id.mustReadImage);
+////            categoryText = mView.findViewById(R.id.categoryText);
+////            hotText = mView.findViewById(R.id.hotText);
+////            topicText = mView.findViewById(R.id.topicText);
+////            mustReadText = mView.findViewById(R.id.mustReadText);
+//
+//        }
+//
+//    }
 
 }
