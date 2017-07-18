@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/help_item_content_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Flyme6.7.6.27 beta亮点解析"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/help_item_content_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="一：新增[截图音效]开关[截图音效]开关，声音你说了算。关闭截图系统音效，让你有效避免尴尬；如果你就是喜欢截图巴拉巴拉"
+        android:textSize="10dp"/>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@android:drawable/presence_online" />
+        <TextView
+            android:id="@+id/help_item_content_tips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="系统升级"
+            android:textSize="10dp"/>
+
+    </LinearLayout>
+</LinearLayout>

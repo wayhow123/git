@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/help_item_titleicon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/btn_default_small" />
+
+
+    <TextView
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/help_item_titleicon"
+        android:id="@+id/help_item_Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Block块标题"/>
+
+
+    <TextView
+        android:id="@+id/help_item_more_button"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/help_item_header_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="更多"/>
+    <ImageButton
+        android:id="@+id/help_item_header_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@android:drawable/ic_menu_more" />
+
+</RelativeLayout>
